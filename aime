@@ -1,0 +1,38 @@
+def plg8():
+    pc = input("Please enter your postcode! (3153, 3190, 5108, 5159)")
+
+    if pc == "3153":
+        colour = input("Which bin colour would you like information on? (red, yellow, green)")
+        if colour == "red":
+            print("Your red bin at 3135 will be collected weekly!")
+        elif colour == "yellow":
+            print("Your yellow bin at 3135 will be collected every fortnight!")
+        elif colour == "green":
+            print("Your green bin at 3135 will be collected every fortnight!")
+
+    if pc == "3190":
+        colour = input("Which bin colour would you like information on? (red, yellow, green)")
+        if colour == "red":
+            print("Your red bin at 3190 will be collected every fortnight!")
+        elif colour == "yellow":
+            print("Your yellow bin at 3190 will be collected every fortnight!")
+        elif colour == "green":
+            print("Your green bin at 3190 will be collected Weekly!")
+
+    if pc == "5108":
+        colour = input("Which bin colour would you like information on? (red, yellow, green)")
+        if colour == "red":
+            print("Your red bin at 5108 will be collected Weekly!")
+        elif colour == "yellow":
+            print("Your yellow bin at 5108 will be collected every fortnight!")
+        elif colour == "green":
+            print("Your green bin at 5108 will be every fortnight on alternate weeks to the yellow bin!")
+
+    if pc == "5159":
+        colour = input("Which bin colour would you like information on? (red, yellow, green)")
+        if colour == "red":
+            print("Your red bin at 5159 will be collected Weekly!")
+        elif colour == "yellow":
+            print("Your yellow bin at 5159 will be collected every fortnight!")
+        elif colour == "green":
+            print("Your green bin at 5159 will be collected Weekly!")
