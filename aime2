@@ -1,0 +1,52 @@
+def plg8():
+    pc = input("Please enter your postcode! (3153, 3190, 5108, 5159): ")
+
+    if pc == "3153":
+        material = input("What would you like to recycle? (e-waste, food, plastic or try a specific material!): ")
+        if material == "e-waste":
+            print("E-waste can be:\n- Put out with your booked hard waste service and our contractor will collect and recycle it. Eligible households can book a hard waste collection.\n- Dropped off at the Knox Recycling & Waste Transfer Station. Fees may apply. (No charge for televisions and computer monitors)\n- Dropped off at an industry-run recycling drop-off point. (No charge for TVs and computers).")
+        elif material == "food":
+            print("From 20 April to 9 June, The council will provide all homes with:\n- A new lime green lid on your garden waste bin\n-A new food and garden bin if you do not have one \n- A kitchen caddy for food scraps \n- A year’s supply of compostable caddy liners (green) \n- Information to help you use the new service")
+        elif material == "plastic":
+            print("for plastic bottles, - take lids off and place all loose into the recycling (empty, rinsed/unrinsed)")
+        elif material in ['wrapping paper', 'greeting cards', 'magazines', 'newspaper', 'egg cartons']:
+            print("Put this in the blue bin!")
+
+    if pc == "5108":
+        material = input("What would you like to recycle? (e-waste, food, plastic): ")
+        if material == "e-waste":
+            print("NAWMA's Pooraka Resource Recovery Centre provides a collection point for old mobile phones to be recycled. Every collected mobile is recycled for resource recovery, nothing resold and any data left on the devices is destroyed in the recycling process.")
+        elif material == "food":
+            print("By placing food scraps in a kitchen caddy and recycling these in your kerbside green waste bin, you are helping divert these from general waste and landfill which also lowers the cost to City of Salisbury ratepayers.")
+        elif material == "plastic":
+            print("All plastic containers can be recycled using your yellow bin but unfortunately, REDcycle has paused its soft plastics collection program from 9 November 2022. Please visit the REDcycle website for further information. In the interim, please place your soft plastics in your red kerbside waste bin or re-use your plastic bags.")
+        elif material in ['glass', 'cartons', 'paper', 'cardboard', 'tin cans']:
+            print("This can be recycled in the yellow bin!")
+
+    if pc == "3190":
+        material = input("What would you like to recycle? (e-waste, food, plastic): ")
+        if material == "e-waste":
+            print(
+                "Small e-waste items such as batteries, old phones, light bulbs and cords can be disposed for free by taking them to any one of Bayside’s community recycling stations. \nLocations: \n-Corporate Centre – 76 Royal Avenue, Sandringham \n-Beaumaris Library – 96 Reserve Rd, Beaumaris \n-Brighton Library – 14 Wilson St, Brighton \n-Sandringham Library - 8 Waltham Street, Sandringham\n Items accepted:\n-Batteries\n-Light globes\n-Fluorescent light tubes/n-Phones and cameras, cords and accessories \n-Video, cassettes and cases\n-CDs/DVDS, floppy disk and cases\n-X-rays")
+        elif material == "food":
+            print("By putting your food scraps into the food and green waste bin instead of the general waste bin, you will help reduce the amount of waste going to landfill.")
+        elif material == "plastic":
+            print("Plastic bags,other soft plastics, plastic, biodegradable or compostable cutlery and plates all must go into the red bin but all others will go into the yellow bin")
+        elif material in ['wrapping paper', 'greeting cards', 'magazines', 'newspaper', 'egg cartons']:
+            print("Put this in the blue bin!")
+
+    if pc == "5159":
+        material = input("What would you like to recycle? (e-waste, food, plastic): ")
+        if material == "e-waste":
+            print(
+                "Electrical items CANNOT go into your household bins or to landfill.\n-If it's in working condition consider giving it away, swapping or selling it.\nOR\n-drop-off at an Unplug N’Drop hub for free e-waste recycling\n-contact a scrap metal merchant.")
+        elif material == "food":
+            print(
+                "Use for compost at home or throw it into the green organics bin!")
+        elif material == "plastic":
+            print("plastic shopping bags, chip/lolly wrappers, yogurt pouches, pet food pouches and cellophane must be placed in the red bin. Other recyclable plastics such as bottles and cartons must be placed in the yellow bin.")
+        elif material in ['wrapping paper', 'greeting cards', 'magazines', 'newspaper', 'egg cartons']:
+            print("Put this in the yellow bin!")
+
+
+plg8()
